@@ -53,7 +53,7 @@ export const PatientForm = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6">
         <section className="mb-12 space-y-4">
-          <h1 className="header">Hi there 👋 It's me Xuhaib</h1>
+          <h1 className="header">Hi there 👋 It's me <a href="https://www.instagram.com/zoh.aib__?igsh=MWM0OWJwM3IzOTVzMg==">Xuhaib</a></h1>
           <p className="text-dark-700">Get started with appointments.</p>
         </section>
 
