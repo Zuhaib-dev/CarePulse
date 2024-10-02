@@ -1,13 +1,14 @@
 import { withSentryConfig } from "@sentry/nextjs";
+import { tree } from "next/dist/build/templates/app-page";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript : {
+  typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds:true,
+    ignoreDuringBuilds: true,
   }
-};
+}
 
 
 
